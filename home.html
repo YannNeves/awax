@@ -12,9 +12,7 @@
     <header>
       <div class="header">
         <div class="logo">
-          <div class="logoimg">
-
-          </div>
+          <div class="logoimg"></div>
         </div>
         <div class="menu">
           <nav>
@@ -36,30 +34,38 @@
     <main>
       <section class="banner">
         <div class="sliders">
-          <div class="slide">
+          <div class="slide fade">
             <div class="slidearea">
               <h1>Design is about<br/><span>Communication</span></h1>
               <h2>Call Us: +00 0 1234 5678</h2>
               <a href="">Get in touch!</a>
             </div>
           </div>
-          <div class="slide">
-            ...
+          <div class="slide fade">
+            <div class="slidearea">
+              <h1>Design is about<br/><span>Marketing</span></h1>
+              <h2>Call Us: +00 0 1234 5678</h2>
+              <a href="">Get in touch!</a>
+            </div>
           </div>
-          <div class="slide">
-            ...
+          <div class="slide fade">
+            <div class="slidearea">
+              <h1>Design is about<br/><span>Gimme More</span></h1>
+              <h2>Call Us: +00 0 1234 5678</h2>
+              <a href="">Get in touch!</a>
+            </div>
           </div>
         </div>
-        <div class="sliders-pointers">
-          <div class="pointer active"></div>
-          <div class="pointer"></div>
-          <div class="pointer"></div>
+        <div class="sliders-pointers" id="slideshow">
+          <div class="pointer" onclick="slideAtual(1)"></div>
+          <div class="pointer" onclick="slideAtual(2)"></div>
+          <div class="pointer" onclick="slideAtual(3)"></div>
         </div>
       </section>
     </main>
     <footer>
 
     </footer>
-    <!-- <script src="assets/js/script.js"></script> -->
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
